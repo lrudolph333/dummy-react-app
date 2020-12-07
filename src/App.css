@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+/*
+From To Do APP
+*/
+
+body {
+    background-color: #714184;
+}
+
+.header {
+    height: 10vh;
+    background-color: #53146B;
+    align-content: center;
+    color: #CC75EE;
+    text-align: center;
+}
+
+#addNewTodoContainer > * {
+    width: 60vw;
+    margin: auto;
+    color: #DAA1FF;
+    text-align: center;
+}
+
+#addNewTodoContainer {
+    border-top: 1vh solid white;
+    padding: 1vh 0 1vh 0;
+    background-color: #714184;
+
+}
+
+#todoListContainer > * {
+    width: 60vw;
+    margin: auto;
+    color: #DAA1FF;
+    text-align: center;
+    padding: 1vh 0 1vh 0;
+}
+
+#todoListContainer  {
+    border-top: 1vh solid white;
+    padding: 1vh 0 1vh 0;
+    background-color: #714184;
+
+}
+
+li {
+    color: #451366;
+    border: 2px solid #48146B!important;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item {
+
+}
+
+.actionsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.actionsContainer > div {
+    background-color: #53146B;
+    color: #DAA1FF;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+}
+
+textarea {
+    border: 4px solid #48146B!important;
+    color: #451366;
+
+}
